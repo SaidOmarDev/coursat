@@ -1,0 +1,116 @@
+/*******global framework******/
+a{
+    color: #6274a2
+}
+/*******global framework******/
+
+/*************Start of courses tabs Section****/
+.courses-tabs .tabs{
+    margin: 50px 0;
+    border-radius: 5px;
+    background-color: #fff
+}
+.courses-tabs .tabs ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+.courses-tabs .tabs ul li{ display: inline-block }
+.courses-tabs .tabs ul li:first-child{ border-left: none }
+.courses-tabs .tabs ul li:last-child{ border-right: none }
+.courses-tabs .tabs ul li a{
+    text-align: center;
+    display: block;
+    padding: 15px 15px;
+    text-transform: capitalize
+}
+.courses-tabs .tabs ul li:hover a{ background-color: #ebebeb }
+
+/*************Start of current courses && popular courses sections******************/
+.current-courses,
+.popular-courses{ padding-bottom: 50px }
+.current-courses h2,
+.popular-courses h2{ margin: 20px 0 }
+.current-courses hr,
+.popular-courses hr{
+    width: 40px;
+    height: 2px;
+    margin: 10px 0 30px;
+    background-color: #687aa8
+}
+.current-courses .cards .card:nth-child(2),
+.popular-courses .cards .card:nth-child(2),
+.popular-courses .cards .card:nth-child(5){ margin: 0 3.5% 30px }
+.current-courses .cards .card .video-img,
+.popular-courses .cards .card .video-img{
+    height: 250px;
+    text-align: center
+}
+.current-courses .cards .card .video-img img,
+.popular-courses .cards .card .video-img img{
+    width: 100%;
+    height: 100%
+}
+.current-courses .cards .card .video-info,
+.popular-courses .cards .card .video-info{
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.current-courses .cards .card .video-info h5,
+.popular-courses .cards .card .video-info h5{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold
+}
+.current-courses .cards .card .video-info h5 span,
+.popular-courses .cards .card .video-info h5 span{
+    font-size: 15px;
+    float: right
+}
+.current-courses .cards .card .video-info p,
+.popular-courses .cards .card .video-info p{
+    font-size: 14px;
+    color: #1d2d56;
+    font-weight: 500
+}
+.current-courses .cards .card .video-info button,
+.popular-courses .cards .card .video-info button{ margin-top: 30px }
+.current-courses > button{
+    width: 50px;
+    height: 40px;
+    float: right;
+    border: none
+}
+.current-courses > button img{
+    text-align: center;
+    width: 35px;
+    height: 25px;
+    padding: 8px 0 0 8px
+}
+.current-courses> button:first-of-type{ background-color: #8a9ccc }
+.current-courses> button:last-of-type{ background-color: #d6d3d3 }
+
+.popular-courses .more{ float: right }
+.popular-courses .more p{
+    color: #6274a2;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px
+}
+.popular-courses .more img{
+    width: 24px;
+    height: 15px;
+    margin-left: 18px
+}
+/*************End of current courses && popular courses section******************/
+
+/*************Start of footer section*******************/
+footer{
+    color: #fff;
+    background-color: #1a284d;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px
+}
+/*************End of footer section*******************/

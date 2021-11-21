@@ -1,0 +1,326 @@
+/*******global framework******/
+*{
+    margin: 0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+    color: #fff
+}
+p{
+    color: #8c9fcf
+}
+.container{
+    width: 85%;
+    margin: 0 auto
+}
+.overlay{
+    background-color: rgba(26, 40, 77, 0.7);
+    width: 100%;
+    height: 100%;
+}
+button:hover{ cursor: pointer }
+h3{
+    font-weight: bold;
+    font-size: 32px
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+    color: #1a284d
+}
+.btn{
+    float: right;
+    background-color: #687aa8;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: capitalize
+}
+.hr{
+    width: 40px;
+    height: 2px;
+    margin: 10px 0 30px;
+    background-color: #687aa8
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .card{
+    width: 31%;
+    margin-bottom: 30px;
+}
+/*******global framework******/
+
+/*************Start of Header section************/
+body{
+    background-color: #fbfbfb;
+    font-family: Raleway
+}
+header nav{
+    background-color: #1a284d;
+    font-weight: 600;
+    display: flex
+}
+header nav .container > a{
+    float: left;
+    margin-right: 75px;
+    font-size: 18px;
+    padding: 15px 10px
+}
+header nav ul{
+    list-style: none;
+    display: inline-block
+}
+header nav ul li{
+    display: inline-block
+}
+header nav ul li a{
+    padding: 15px 10px;
+    font-size: 15px;
+    color: #687aa8
+}
+header nav ul li:hover a{ color: #fff }
+header nav ul li.active a{
+    background-color: #1d2d56;
+    color: #fff
+}
+header nav a{
+    display: inline-block;
+    text-transform: capitalize
+}
+header nav div{ float: right }
+header nav .container div a{
+    margin: 15px 0;
+    padding: 0 15px;
+    font-size: 14px
+}
+header nav .container div a:first-child{ border-right: 1px solid #fff }
+/*************End of Header section************/
+
+/************Start of main video section**************/
+.main-video{
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+.main-video .main-info{
+    padding-top: 10%
+}
+.main-video .main-info h3{
+    padding: 10px 0;
+    color: #fff
+}
+.main-video .main-info p{ font-weight: 400; color: #fff }
+.main-video .main-info .watch{
+    margin-top: -35px;
+    font-size: 13px;
+    margin-left: 70px
+}
+.main-video .main-info button{
+    width: 50px;
+    height: 50px;
+    background-color: #687aa8;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px
+}
+.main-video .main-info button img{
+    width: 35px;
+    height: 35px
+}
+/************End of main video section**************/
+
+/************Start of recent courses section************/
+.recent-courses{
+    overflow: hidden;
+    padding-bottom: 100px
+}
+.recent-courses .recent-info{
+    padding-top: 100px;
+    float: left;
+    width: 30%
+}
+.recent-courses h3{ padding: 10px 0 }
+.recent-courses p{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px
+}
+.recent-courses img{
+    width: 32px;
+    height: 16px;
+    margin-left: 20px
+}
+.recent-courses .video-cards{
+    width: 70%;
+    float: left;
+    padding-top: 30px
+}
+.recent-courses .card{
+    width: 31%;
+    margin-bottom: 20px;
+    float: left
+}
+.recent-courses .card:nth-child(2){ margin: 0 3.5% }
+.recent-courses .card .video-img{
+    height: 200px;
+    text-align: center;
+    position: relative
+}
+.recent-courses .card .video-img img:first-child{
+    width: 100%;
+    height: 100%;
+    margin-left: 0
+}
+.recent-courses .card .video-img img:last-child{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 37.5%;
+    left: 37.5%;
+    margin: 0
+}
+.recent-courses .card .video-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.recent-courses .card .video-info{
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.recent-courses .card .video-info h5{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold
+}
+.recent-courses .card .video-info h5 span{
+    font-size: 14px;
+    float: right
+}
+.recent-courses .card .video-info p{
+    font-size: 13px
+}
+/************End of recent courses section************/
+
+/*************Start of about section******************/
+.about{ padding-bottom: 100px }
+.about h3{ margin-bottom: 10px }
+.about .about-content{ overflow: hidden }
+.about .about-content .about-img{
+    width: 49%;
+    float: left;
+    margin-right: 2%
+}
+.about .about-content .about-img img{ width: 100% }
+.about .about-content .about-info{
+    width: 49%;
+    float: left;
+    padding-top: 50px
+}
+.about .about-content .about-info h3{
+    text-transform: capitalize;
+    padding-bottom: 10px
+}
+.about .about-content .about-info p{ font-family: 'Open Sans' }
+.about .about-content .about-info button{ margin-top: 50px }
+/*************End of about section******************/
+
+/*************Start of our courses section******************/
+.our-courses{
+    overflow: hidden;
+    padding-bottom: 100px
+}
+.our-courses .cards{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 30px
+}
+.our-courses .cards .card{
+    width: 31%;
+    float: left
+}
+.our-courses .cards .card:nth-child(2){ margin: 0 3.5% }
+.our-courses .cards .card .video-img{
+    height: 250px;
+    text-align: center
+}
+.our-courses .cards .card .video-img img{
+    width: 100%;
+    height: 100%
+}
+.our-courses .cards .card .video-info{
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.our-courses .cards .card .video-info h5{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold
+}
+.our-courses .cards .card .video-info h5 span{
+    font-size: 15px;
+    float: right
+}
+.our-courses .cards .card .video-info p{
+    font-size: 14px;
+    font-weight: 500
+}
+.our-courses .cards .card .video-info button{ margin-top: 30px }
+.our-courses .container > button{
+    width: 50px;
+    height: 40px;
+    float: right;
+    border: none
+}
+.our-courses .container > button img{
+    text-align: center;
+    width: 35px;
+    height: 25px;
+    padding: 8px 0 0 8px
+}
+.our-courses .container> button:first-of-type{ background-color: #687aa8 }
+.our-courses .container> button:last-of-type{ background-color: #d6d3d3 }
+/*************End of our courses section******************/
+
+/*************Start of contact section*******************/
+.contact{
+    padding-bottom: 100px
+}
+.contact h3{
+    text-align: center;
+    margin-bottom: 10px
+}
+.contact hr{ margin: 10px auto 30px }
+.contact .contact-info{
+    display: flex;
+    justify-content: space-between
+}
+.contact .contact-info .contact-tool{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .contact-info .contact-tool p{
+    margin-left: 10px;
+}
+.contact .contact-info .contact-tool img{
+    width: 25px;
+    height: 25px;
+}
+.contact .contact-info .contact-tool:nth-child(2){ margin: 0 3.5% }
+/*************End of contact section*******************/
+
+/*************Start of footer section*******************/
+footer{
+    background-color: #1a284d;
+    padding: 20px;
+    text-align: center
+}
+footer p{ color: #fff }
+/*************End of footer section*******************/

@@ -1,0 +1,246 @@
+/************Start of overview video section**************/
+.overview-video{
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+.overview-video .main-info{
+    color: #fff;
+    padding-top: 10%;
+}
+.overview-video .main-info h3{
+    padding: 10px 0;
+    color: #fff
+}
+.overview-video .main-info h3 span{
+    font-size: 18px;
+    margin-left: 20px
+}
+.overview-video .main-info p{ font-weight: 600 }
+.overview-video .main-info .watch{
+    margin-top: -35px;
+    font-size: 13px;
+    margin-left: 70px
+}
+.overview-video .main-info button{
+    width: 50px;
+    height: 50px;
+    background-color: #6274a2;
+    border: none;
+    border-radius: 50%
+}
+.overview-video .main-info button img{
+    width: 35px;
+    height: 35px
+}
+/************End of overview video section**************/
+
+/************Start of add to cart section***************/
+.add-cart{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.add-cart .some-info{
+    width: 70%;
+    float: left;
+}
+.add-cart .some-info h4{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 28px
+}
+.add-cart .some-info p{
+    line-height: 1.4;
+    color: #878a96
+}
+.add-cart .cart{
+    width: 25%;
+    float: left;
+    margin-left: 5%
+}
+.add-cart .cart button{
+    display: block;
+    text-transform: capitalize;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: poppins
+}
+.add-cart .cart button:first-child{
+    background-color: #687aa8;
+    color: #fff;
+}
+.add-cart .cart button:last-child{
+    background-color: #fff;
+    color: #687aa8;
+    border: 1px solid #687aa8
+}
+/************End of add to cart section***************/
+
+/************Start of course content section**********/
+.course-content h3{
+    padding: 20px 0 10px;
+    font-size: 26px
+}
+.course-content .content-bar{
+    width: 65%;
+    background-color: #fff;
+}
+.course-content .content-bar .head-bar{
+    padding: 5px 5px 8px;
+    border: 1px solid #c5cee4;
+    border-radius: 3px;
+    color: #6274a2;
+    cursor: pointer
+}
+.course-content .content-bar .head-bar h4{
+    font-weight: normal;
+    padding: 5px
+}
+.course-content .content-bar .head-bar h4 img{
+    margin: -5px 10px -7px 2px;
+    width: 20px;
+    opacity: .5
+}
+.course-content .content-bar .head-bar span{
+    float: right;
+    font-size: 15px;
+    font-weight: 500
+}
+.course-content .content-bar .bar-content{ display: none }
+.course-content .content-bar .bar-content.active-bar{ display: block }
+.course-content .content-bar .bar-content *{
+    color: #687aa8;
+    font-weight: 400
+}
+.course-content .content-bar .bar-content h6{
+    padding: 5px 0;
+    font-size: 13px
+}
+.course-content .content-bar .bar-content h6 img{
+    margin: 10px 15px -3px 15px;
+    width: 12px
+}
+.course-content .content-bar .bar-content span{
+    float: right;
+    font-size: 12px;
+    margin-right: 7px
+}
+/************End of course content section************/
+
+/************Start of course description section******/
+.course-description .container div{ width: 65% }
+.course-description h3{ padding: 50px 0 10px }
+.course-description p{
+    color: #7986a9;
+    line-height: 1.4
+}
+/************End of course description section*******/
+
+/************Start of featured section***************/
+.featured-review h3{ padding: 50px 0 10px }
+.featured-review .review{
+    width: 60%;
+    background-color: #e8e8e8;
+    padding: 20px
+}
+.featured-review .review .user-info{ overflow: hidden }
+.featured-review .review .user-info img{
+    width: 70px;
+    float: left
+}
+.featured-review .review .user-info div{
+    overflow: hidden;
+    width: 30%;
+    margin: 20px 0 0 85px
+}
+.featured-review .review .user-info h6{
+    font-size: 16px;
+    margin-bottom: 5px
+}
+.featured-review .review .user-info span{ color: #8a9ccc }
+.featured-review .review p{
+    line-height: 1.2;
+    color: #677494;
+    font-size: 14px;
+    margin: 10px 0
+}
+/************End of featured section****************/
+
+/************Start of checked courses section********/
+.checked-courses{
+    overflow: hidden;
+    padding-bottom: 50px
+}
+.checked-courses h2{ margin: 70px 0 20px }
+.checked-courses hr{
+    width: 40px;
+    height: 2px;
+    margin: 10px 0 30px;
+    background-color: #687aa8
+}
+.checked-courses .cards{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 30px
+}
+.checked-courses .cards .card{
+    width: 31%;
+    float: left
+}
+.checked-courses .cards .card:nth-child(2){ margin: 0 3.5% }
+.checked-courses .cards .card .video-img{
+    height: 250px;
+    text-align: center
+}
+.checked-courses .cards .card .video-img img{
+    width: 100%;
+    height: 100%
+}
+.checked-courses .cards .card .video-info{
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.checked-courses .cards .card .video-info h5{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold
+}
+.checked-courses .cards .card .video-info h5 span{
+    font-size: 15px;
+    float: right
+}
+.checked-courses .cards .card .video-info p{
+    font-size: 14px;
+    color: #1d2d56;
+    font-weight: 500
+}
+.checked-courses .cards .card .video-info button{ margin-top: 30px }
+.checked-courses .container > button{
+    width: 50px;
+    height: 40px;
+    float: right;
+    border: none
+}
+.checked-courses .container > button img{
+    text-align: center;
+    width: 35px;
+    height: 25px;
+    padding: 8px 0 0 8px
+}
+.checked-courses .container> button:first-of-type{ background-color: #8a9ccc }
+.checked-courses .container> button:last-of-type{ background-color: #d6d3d3 }
+/*************End of checked courses section******************/
+
+/*************Start of footer section*******************/
+footer{
+    color: #fff;
+    background-color: #1a284d;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px
+}
+/*************End of footer section*******************/
