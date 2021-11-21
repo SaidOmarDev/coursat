@@ -73,7 +73,8 @@ header nav .container > a{
 }
 header nav ul{
     list-style: none;
-    display: inline-block
+    display: inline-block;
+    margin-bottom: 0;
 }
 header nav ul li{
     display: inline-block
@@ -92,13 +93,16 @@ header nav a{
     display: inline-block;
     text-transform: capitalize
 }
-header nav div{ float: right }
-header nav .container div a{
-    margin: 15px 0;
-    padding: 0 15px;
-    font-size: 14px
+header nav .login{
+    float: right;
+    margin-bottom: 0;
+    padding: 15px 0;
+    color: white;
 }
-header nav .container div a:first-child{ border-right: 1px solid #fff }
+header nav .container div a:first-child{
+    padding-right: 5px;
+    border-right: 1px solid #fff
+}
 /*************End of Header section************/
 
 /************Start of main video section**************/

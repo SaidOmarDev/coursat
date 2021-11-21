@@ -6,3 +6,8 @@ $(function(){
         $(this).next('.bar-content').slideToggle(500);
     });
 });
+
+function logout(e) {
+    e.preventDefault();
+    document.querySelector('#logout-form').submit();
+}
